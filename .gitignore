@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/linux,macos,backup,windows,visualstudio,jetbrains+iml
-# Edit at https://www.gitignore.io/?templates=linux,macos,backup,windows,visualstudio,jetbrains+iml
+# Created by https://www.gitignore.io/api/linux,macos,backup,windows,visualstudio,jetbrains+iml,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=linux,macos,backup,windows,visualstudio,jetbrains+iml,visualstudiocode
 
 ### Backup ###
 *.bak
@@ -105,6 +105,17 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -481,4 +492,4 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# End of https://www.gitignore.io/api/linux,macos,backup,windows,visualstudio,jetbrains+iml
+# End of https://www.gitignore.io/api/linux,macos,backup,windows,visualstudio,jetbrains+iml,visualstudiocode
