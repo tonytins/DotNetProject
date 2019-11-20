@@ -10,7 +10,7 @@
 
 - .NET Core 3.1
 - Recommended IDEs
-  - Visual Studio 16.3+
+  - Visual Studio 16.4+
   - Visual Studio Code
   - Jetbrains Rider
 
